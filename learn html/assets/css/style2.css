@@ -1,0 +1,61 @@
+:root{
+   --primary: #735DFE;
+   --secondary: #735DFE95;
+   --gradient:#F45DEF;
+   --third:#EAEAEA;
+   --light:#FFFFFF;
+   --dark:#000000;
+ }
+ 
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+ }
+ 
+ html{
+   scroll-behavior: smooth;
+ }
+ 
+ p{
+   line-height: 140%;
+ }
+ 
+ .container{
+   margin: 1.5rem;
+ }
+ 
+ .navbar{
+   position: relative;
+ }
+ 
+ .navbar-collapse{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .navbar-collapse{
+   position: fixed;
+   top: 3.5rem;
+   right:2rem;
+   padding: .3rem;
+   border: none;
+   border-radius: .5rem;
+   cursor: pointer;
+   z-index: 20;
+ }
+ 
+ .navbar-nav{
+   position: fixed;
+   z-index: 10;
+   width: 90%;
+   top: 1.5rem;
+   right: 0;
+   background-color: var(--light);
+   margin: 1rem;
+   list-style: none;
+   box-shadow: .25rem .25rem .5rem #00000025;
+   border-radius: .5rem;
+ }
